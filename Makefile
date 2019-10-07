@@ -4,5 +4,5 @@ build :
 clean :
 	rm -f *.log *.aux *.out *.syntex *.pdf
 
-.PHONY : compile build
+.PHONY : build clean
 
