@@ -11,7 +11,7 @@
 \renewcommand{\rmdefault}{ptm}
 \setlength{\hintscolumnwidth}{30mm}
 \renewcommand*{\namefont}{\fontsize{28}{30}\mdseries\upshape}
-\def\mark{{\tiny$\bullet$} }
+\def\mark{{\small$\bullet$} }
 
 \firstname{Artem}
 \familyname{Ioselevskii}
@@ -19,25 +19,38 @@
 \mobile{+7\,(952)\,228-92-23}
 \email{artem.ioselevskii@gmail.com}
 \homepage{t.me/ioart}
+\photo[30mm]{photo.jpg}
 
 \begin{document}
 \maketitle
 
 \section{Career objective}
 \cvline
-    {Position}{Software Developer}
+    {Position}{Senior Software Developer}
 
-\section{Work experience 8 years 5 months} % 101 months
-\cventry
-    {June 2019 --\newline present} % 15 months
-    {\href{https://market.yandex.ru/}{Yandex.Market}}
-    {St.Petersburg, Software Developer}
+\section{Key skills}
+\cvline
     {}
+    {C++17, Python, git, svn, Linux, MapReduce, Cloud Systems, CI/CD, SQL, PostgreSQL, ClickHouse, YT, YDB, Protocol Buffers, FlatBuffers, pytest, Zookeeper, Docker, userver}
+
+\section{Work experience}
+\cventry
+    {June 2019 --\newline present} % ?? months
+    {\href{https://market.yandex.ru/}{Yandex}}
+    {St.Petersburg, Software Developer}
+    {Yandex Market team}
     {}
     {
-        \mark Backend developer of indexer (C++17, Python)
+        {\large Duties \& responsibilities}
+        \newline \mark Development and support of a service that prepares a search index for Yandex Market
+        \newline \mark Creating unit and functional tests as well as metrics, monitorings, dashboards to increase the reability of the service
+        \newline \mark Creating and maintaining packages and release pipelines as a DevOps Engineer
+        \newline \mark On-Call duties as a Site Reliability Engineer
         \newline
-        \mark Web-services deployment and support
+        {\large Achievements}
+        \newline \mark I have automated a mechanism that reduces the size of the search index by rotating poorly-displayed offers. It reduces hardware costs and also reduced the loss of money by hiding only rarely shown offers
+        \newline \mark Participated in the development of a mechanism for creating product cards on the fly. This reduced the time to create a product card from 2 weeks to 1 day
+        \newline \mark Developed a metric for tracking the freshness of data in the service, which is now widely used throughout the company
     }
 
 \cventry
@@ -47,9 +60,9 @@
     {}
     {}
     {
-        \mark Research and Development of the Self-Driving car problems (Python, CV) in
-        {\href{https://www.duckietown.org/archives/37690}{Duckietown}} project,
-        the winner of the {\href{https://www.icra2019.org/competitions/ai-driving-olympics-ai-do}
+        \mark Research and Development of the Self-Driving car problems (Python, CV) in the
+        {\href{https://www.duckietown.org/archives/37690}{Duckietown}} project
+        \newline \mark The winner of the {\href{https://www.icra2019.org/competitions/ai-driving-olympics-ai-do}
         {AI Driving Olympics II at ICRA 2019}} (Canada, Montreal) as part of the
         \href{https://research.jetbrains.org/ru/news/the-team-jbrrussia-won-ai-driving-olympics-at-icra2019}
         {JetBrains Research team}
@@ -65,7 +78,7 @@
         \mark Development of the automatic ship motion control systems:
               Dynamic Positioning System, Autopilot, Integrated Bridge System
         \newline
-        \mark Developed the software for the test stands based on ICP-DAS controllers (C++11, Qt)
+        \mark Developed the software for the test stand based on ICP-DAS controllers (C++11, Qt)
     }
 
 \cventry
@@ -94,15 +107,16 @@
         \mark Development the software for the test stands (C/C++)
     }
 
+\pagebreak
+
 \section{Higher education}
 \cventry
-    {2018 -- 2021}
-    {\href{https://compscicenter.ru/users/4612/}
-    {Computer Science Center}}
-    {Software Engineering, Data Science}
+    {2015}
+    {\href{https://www.lut.fi/web/en/}{Lappeenranta University of Technology}}
+    {Technomathematics}
+    {\newline Exchange student}
     {}
-    {}
-    {}
+    {Lappeenranta, Finland}
 
 \cventry
     {2010 -- 2016}
@@ -110,23 +124,24 @@
     {\newline Institute of Applied Mathematics and Mechanics}
     {\newline Master with distinction of Applied Mechanics,
     \newline the winner of the Vladimir Potanin scholarship,
-    participation in engineering competitions, specialized olympiads}
+    participation in engineering competitions and olympiads}
+    {}
+    {}
+    
+\section{Additional education}
+\cventry
+    {2018 -- 2021}
+    {\href{https://compscicenter.ru/students/3977/}
+    {Computer Science Center}}
+    {Software Engineering, Data Science}
+    {}
     {}
     {}
 
 \cventry
-    {2015}
-    {\href{https://www.lut.fi/web/en/}{Lappeenranta University of Technology}}
-    {Technomathematics}
-    {}
-    {}
-    {Lappeenranta, Finland}
-    
-\section{Additional education}
-\cventry
     {2018 -- present}
     {\href{https://stepik.org/users/57620777}{Stepik}}
-    {Algorithms, C++ Programming, Discrete Mathematics}
+    {Algorithms, C++, Python, Linux, Discrete Mathematics}
     {}
     {}
     {}
@@ -139,43 +154,42 @@
     {}
     {}
 
-\pagebreak
-
 \section{Master thesis}
 \cvline
     {2016}
-    {<<Water Jet control system>> -- development of the waterjets control system for a passenger ship}
+    {"Water Jet control system" -- development of the waterjets control system for a passenger ship}
 
 \section{Conferences}
 \cvline
     {2016}
     {Conference "Management in the maritime and aerospace systems" (UMAS-2016),
-    the report "Algorithms for the distribution of stops in the positioning tasks of maritime mobile objects"}
+    the report "Algorithms for the distribution of stops in the tasks of positioning marine mobile objects"}
 \cvline
     {2015}
     {XVII Conference of Young Scientists "Navigation and Motion Control",
-    the report "Identification of parameters of a dynamic model of ship motion"}
+    the report "Identification of parameters of the dynamic model of vessel movement"}
 \cvline
     {2012}
-    {XXXVIII All-Russian Conference "Controlling the movement of a ship and special underwater vehicles",
-    the report "Determining the stops of the means of active MMO motion control"}
+    {XXXVIII All-Russian Conference "Motion control of the ship and special underwater vehicles",
+    the report "Determination of stops of active motion control means MMO"}
 \cvline
     {2012}
     {XIV Conference of Young Scientists "Navigation and Motion Control",
-    the report "Determining the characteristics of active control tools in dynamic positioning tasks"}
+    the report "Determination of the characteristics of active controls in dynamic positioning tasks"}
 
-\section{Key skills}
+\section{Additional experience}
 \cvline
     {}
-    {C/C++, C++11/14, C++17, Python, git, SVN, MATLAB, Latex}
+    {MATLAB, CAD/CAE, \LaTeX}
 \cvline
     {}
     {Algorithms and data structures}
 \cvline
     {}
-    {Mathematical modeling}
+    {Mathematical modeling, Robotics, Motion Control}
 \cvline
-    {}{Data analysis}
+    {}
+    {Machine learning and data analysis}
 
 \section{Additional information}
 \cvline
@@ -183,9 +197,9 @@
 \cvline
     {Languages}{russian -- Native; english -- Upper-Intermediate}
 \cvline
-    {Patents}{Software for sea waves modeling}
+    {Patents}{Software for modeling sea waves}
 \cvline
-    {Personal qualities}{analytical thinking, systems approach}
+    {Personal qualities}{analytical thinking, systematic approach}
 \cvline
     {Github}{\href{https://github.com/ioart}
                   {https://github.com/ioart}}
