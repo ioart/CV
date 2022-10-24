@@ -1,5 +1,5 @@
 build :
-	pdflatex artem_ioselevskii.tex
+	pdflatex artem_ioselevskii_cv.tex
 
 clean :
 	rm -f *.log *.aux *.out *.syntex *.pdf

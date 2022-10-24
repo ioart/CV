@@ -1,6 +1,6 @@
 ## CV
 
-[Download PDF](https://github.com/ioart/cv/raw/master/artem_ioselevskii.pdf)
+[Download PDF](https://github.com/ioart/cv/raw/master/artem_ioselevskii_cv.pdf)
 
 This Curriculum Vitae created with LaTeX and [moderncv](http://www.ctan.org/pkg/moderncv) package.
 
